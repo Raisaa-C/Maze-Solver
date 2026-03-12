@@ -1,0 +1,54 @@
+body{
+font-family: Arial;
+text-align:center;
+background-color: rgb(250, 251, 222) !important;
+}
+
+h1{
+text-align: center;
+margin-top:20px;
+padding-top: 50px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    padding-bottom: 40px;
+}
+.controls{
+margin:20px;
+}
+
+button{
+padding:10px 15px;
+margin:5px;
+cursor:pointer;
+}
+
+#grid{
+display:grid;
+grid-template-columns: repeat(20,30px);
+justify-content:center;
+padding-bottom: 40px;
+}
+
+.cell{
+width:30px;
+height:30px;
+border:1px solid #ccc;
+background:white;
+}
+
+.wall{
+background:black;
+}
+
+.start{
+background:green;
+}
+
+.end{
+background:red;
+}
+
+.path{
+background:yellow;
+}
